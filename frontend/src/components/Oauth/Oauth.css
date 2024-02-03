@@ -1,0 +1,111 @@
+.sec{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.inner_div{
+width: 20rem;
+flex-direction: column;
+gap:1rem;
+border-radius: 0.75rem;
+padding: 1rem; 
+}
+h1{
+text-align: center;
+line-height: 1.6; 
+  
+  
+  
+    color: #fff; 
+  
+  
+    font-weight: 500; 
+  
+  
+  
+    font-size: 1.875rem; 
+
+    margin-bottom: 1.5rem; 
+  
+  
+    
+};
+
+
+.lock{
+    background-color: #fff;
+    color: #10B981;
+    width: fit-content;
+    margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-radius: 9999px;
+}
+
+.lbl{
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+
+}
+
+
+.otp-container{
+    display: flex;
+    justify-content: space-between;
+    gap:0.5rem;
+}
+.otp-container input {
+    margin-right: 0;
+    flex: 1;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; 
+    outline: none;
+  }
+
+  .spin{
+    margin-top: 0.25rem;
+    animation: spin 1s linear infinite; 
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+ .btn{
+  background-color: #047857;
+  width: 100%;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.625rem;
+  padding-bottom:0.625rem ;
+  color:#fff;
+  border-radius: 0.25rem;
+  margin: 1rem;
+ }
+ .react-tel-input .form-control {
+  width: 100%;
+  padding-top: 1.5rem; /* Assuming 6 times 0.25rem (default spacing unit in Tailwind) */
+  padding-bottom: 1.5rem; /* Assuming 6 times 0.25rem (default spacing unit in Tailwind) */
+  font-size: 1rem; /* Assuming the default base font size is 1rem */
+}
+
+h2{
+
+    text-align: center;
+    color: #fff; 
+    font-weight: 500; 
+    font-size: 1.5rem; 
+    
+  }
